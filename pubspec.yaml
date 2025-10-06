@@ -110,4 +110,8 @@ flutter:
   #   - family: Inter
   #     fonts:
   #       - asset: assets/fonts/Inter-Regular.ttf
+<<<<<<< HEAD
   #         weight: 400
+=======
+  #         weight: 400
+>>>>>>> fa78831b915188da7e020261e31476179d148135

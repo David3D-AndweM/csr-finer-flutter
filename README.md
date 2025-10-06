@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌍 CSR CRM - Corporate Social Responsibility Management Platform
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.24.0-blue.svg)](https://flutter.dev/)
@@ -253,3 +254,21 @@ For support and questions:
 ---
 
 **Built with ❤️ using Flutter for multi-platform CSR management**
+=======
+# csr_crm
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> fa78831b915188da7e020261e31476179d148135
