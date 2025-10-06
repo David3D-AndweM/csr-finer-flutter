@@ -1,0 +1,107 @@
+name: csr_crm
+description: "Corporate Social Responsibility Management Platform - A comprehensive Flutter application for managing CSR initiatives with transparency and accountability."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.5
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # Network
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.2
+  
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  
+  # UI Components
+  flutter_screenutil: ^5.9.0
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  
+  # Utilities
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  intl: ^0.19.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  
+  # File Handling
+  file_picker: ^6.1.1
+  image_picker: ^1.0.4
+  path_provider: ^2.1.2
+  
+  # Authentication
+  local_auth: ^2.1.7
+  crypto: ^3.0.3
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.2
+  
+  # Charts and Analytics
+  fl_chart: ^0.66.0
+  
+  # PDF Generation
+  pdf: ^3.10.7
+  printing: ^5.12.0
+  
+  # Dependency Injection
+  get_it: ^7.6.4
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Code Generation
+  build_runner: ^2.4.7
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+  
+  # Testing
+  mockito: ^5.4.4
+  integration_test:
+    sdk: flutter
+  
+  # Linting
+  flutter_lints: ^3.0.1
+  
+  # Assets
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+  
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
